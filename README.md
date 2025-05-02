@@ -225,132 +225,19 @@ momentree_blog/
 │   |   |   └── swaggerConfig         # swagger api 사용 시 설정 정보들
 │   |   ├── domain
 │   |   |   ├── blog/blog      
-│   |   |   |    ├── controller
-│   |   |   |    |    └── BlogApiV1Controller.java
-│   |   |   |    ├── dto
-│   |   |   |    |    ├── BlogCreateRequestDto.java
-│   |   |   |    |    ├── BlogDetailResponseDto.java
-│   |   |   |    |    ├── BlogResponseDto.java
-│   |   |   |    |    ├── BlogRequestDto.java
-│   |   |   |    |    └── BlogUpdateRequestDto.java
-│   |   |   |    ├── entity
-│   |   |   |    |    └── Blog.java
-│   |   |   |    ├── repository
-│   |   |   |    |    └── BlogService.java
-│   |   |   |    └── service
 │   |   |   ├── board       
 │   |   |   |    ├── board
-│   |   |   |    |    ├── controller
-│   |   |   |    |    |   └── BoardApiV1Controller.java
-│   |   |   |    |    ├── dto
-│   |   |   |    |    |   ├── BoardDetailResponseDto.java
-│   |   |   |    |    |   ├── BoardListResponseDto.java
-│   |   |   |    |    |   ├── BoardMyBlogResponseDto.java
-│   |   |   |    |    |   ├── BoardRequestDto.java
-│   |   |   |    |    |   └── BoardResponseDto.java
-│   |   |   |    |    ├── entity
-│   |   |   |    |    |   └── Board.java
-│   |   |   |    |    ├── repository
-│   |   |   |    |    |   └── BoardRepository.java
-│   |   |   |    |    └── service
-│   |   |   |    |        └── BoardService.java
 │   |   |   |    ├── category
-│   |   |   |    |    ├── controller
-│   |   |   |    |    |   └── CategoryController.java
-│   |   |   |    |    ├── dto
-│   |   |   |    |    |   ├── CategoryCreateRequestDto.java
-│   |   |   |    |    |   ├── CategoryResponseDto.java
-│   |   |   |    |    |   └── CategoryUpdateRequestDto.java
-│   |   |   |    |    ├── entity
-│   |   |   |    |    |   └── Category.java
-│   |   |   |    |    ├── repository
-│   |   |   |    |    |   └── CategoryRepository.java
-│   |   |   |    |    └── service
-│   |   |   |    |        └── CategoryService.java
 │   |   |   |    ├── comment
-│   |   |   |    |    ├── dto
-│   |   |   |    |    |   ├── CommentDto.java
-│   |   |   |    |    |   └── CommentRequestDto.java
-│   |   |   |    |    ├── entity
-│   |   |   |    |    |   └── Comment.java
-│   |   |   |    |    ├── repository
-│   |   |   |    |    |   └── CommentRepository.java
-│   |   |   |    |    └── service
-│   |   |   |    |        └── CommentService.java
 │   |   |   |    └── like
-│   |   |   |         ├── dto
-│   |   |   |         |   └── BoardLikeInfoDto.java
-│   |   |   |         ├── entity
-│   |   |   |         |   └── Like.java
-│   |   |   |         ├── repository
-│   |   |   |         |   └── LikeRepository.java
-│   |   |   |         └── service
-│   |   |   |             └── LikeService.java
 │   |   |   ├── photo/photo       
-│   |   |   |    ├── controller
-│   |   |   |    |    ├── BoardPhotoApiV1Controller.java
-│   |   |   |    |    └── ProfilePhotoApiV1Controller.java
-│   |   |   |    ├── dto
-│   |   |   |    |    ├── board
-│   |   |   |    |    |   ├── BoardPhotoResponseDto.java
-│   |   |   |    |    |   └── PhotoAlbumDto.java
-│   |   |   |    |    └── photo
-│   |   |   |    |        └── PhotoUploadResponseDto.java
-│   |   |   |    ├── entity
-│   |   |   |    |    └── Photo.java
-│   |   |   |    ├── photoenum
-│   |   |   |    |    └── PhotoType.java
-│   |   |   |    ├── repository
-│   |   |   |    |    └── PhotoRepository.java
-│   |   |   |    └── service
-│   |   |   |         └── PhotoService.java
 │   |   |   ├── s3       
-│   |   |   |    ├── controller
-│   |   |   |    |    └── S3ApiV1Controller.java
-│   |   |   |    ├── dto
-│   |   |   |    |    ├── request
-│   |   |   |    |    |   ├── PhotoUploadMultiRequestDto.java
-│   |   |   |    |    |   └── PhotoUploadRequestDto.java
-│   |   |   |    |    └── response
-│   |   |   |    |        ├── PresignedUrlMutiResponseDto.java
-│   |   |   |    |        └── PresignedUrlResponseDto.java
-│   |   |   |    └── service
-│   |   |   |         └── S3V1Service.java
 │   |   |   └── user       
 │   |   |        ├── follower/entity
 │   |   |        |    └── FollowerManagement.java
 │   |   |        ├── role/entity
 │   |   |        |    └── Role.java
 │   |   |        └── user
-│   |   |             ├── controller
-│   |   |             |   ├── FollowerApiV1Controller.java
-│   |   |             |   ├── UserApiV1Controller.java
-│   |   |             |   └── UserFindApiV1Controller.java
-│   |   |             ├── dto
-│   |   |             |   ├── UserDeleteRequest.java
-│   |   |             |   ├── UserDto.java
-│   |   |             |   ├── UserFollowerDto.java
-│   |   |             |   ├── UserLikeDto.java
-│   |   |             |   ├── UserLoginDto.java
-│   |   |             |   ├── UserLoginResponseDto.java
-│   |   |             |   ├── UserResponseDto.java
-│   |   |             |   ├── UserSignupDto.java
-│   |   |             |   └── UserUpdateDto.java
-│   |   |             ├── entity
-│   |   |             |   └── User.java
-│   |   |             ├── repository
-│   |   |             |   ├── FollowerRepository.java
-│   |   |             |   ├── UserFindRepository.java
-│   |   |             |   └── UserRepository.java
-│   |   |             ├── service
-│   |   |             |   ├── AuthTokenService.java
-│   |   |             |   ├── FollowerService.java
-│   |   |             |   ├── FollowerServiceImpl.java
-│   |   |             |   ├── UserFindService.java
-│   |   |             |   ├── UserFindServiceImpl.java
-│   |   |             |   └── UserService.java
-│   |   |             └── userenum
-│   |   |                 └── UserService.java    
 │   |   ├── global
 │   |   |   ├── jpa
 │   |   |   |   └── BaseEntity.java
@@ -362,10 +249,6 @@ momentree_blog/
 │   |   |   |   ├── jwt
 │   |   |   |   |    └── JwtTokenizer.java
 │   |   |   |   └── security
-│   |   |   |        ├── CustomAuthorizationRequestResolver.java
-│   |   |   |        ├── CustomOAuth2AuthenticationSuccessHandler.java
-│   |   |   |        ├── CustomOAuth2UserService.java
-│   |   |   |        └── SecurityUser.java
 │   |   |   └── AppConfig.java    
 │   |   ├── main/controller         # 이슈 작성 시 사용되는 템플릿
 │   |   └── MomentreeblogApplication.java   # 이슈 작성 시 사용되는 템플릿
@@ -380,16 +263,6 @@ momentree_blog/
 │── frontend/    
 │   ├── public/
 │   |   ├── images/
-│   |   |   ├── logo.png
-│   |   |   └── momentree-logo.svg
-│   |   ├── default-content.jpg
-│   |   ├── file.svg
-│   |   ├── globe.svg
-│   |   ├── kakao_login.svg
-│   |   ├── logo.png
-│   |   ├── next.svg
-│   |   ├── vercel.svg
-│   |   └── window.svg        
 │   ├── src/
 │   |   ├── app/
 │   |   |   ├── blog/[id] - page.tsx
@@ -429,13 +302,6 @@ momentree_blog/
 │   |   ├── stores/auth/
 │   |   |   └── loginMember.tsx
 │   |   └── toastui-i18n.d.ts       
-│   ├── .env.development              
-│   ├── .env.production               
-│   ├── .gitignore              
-│   ├── packages.json           
-│   ├── next.config.js            
-│   ├── tsconfig.json    
-|   └── etc ....  
 ├── infra
 │   ├── .gitignore             
 │   ├── main.tf            
