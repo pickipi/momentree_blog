@@ -321,42 +321,28 @@ momentree_blog/
 ![image](https://github.com/user-attachments/assets/51e704b3-f055-4699-ace7-b3667e8f473d)
 
 ## 1. 로그인 / 회원가입
-![image](https://github.com/user-attachments/assets/e357298a-115b-4ca1-8b7f-470c91787c19)
-![image](https://github.com/user-attachments/assets/4a518ae9-389d-4534-9acc-3414cad42af9)
-![image](https://github.com/user-attachments/assets/94531b5d-77d8-4f45-a3ad-d6ee1c29bf1a)
 
-***ex. 회원가입***
+***회원가입***
 <br/>
-![1_회원가입](https://github.com/user-attachments/assets/5360910f-85bd-46a2-96e5-c96a32d3d9a2)
+![회원가입](https://github.com/user-attachments/assets/5360910f-85bd-46a2-96e5-c96a32d3d9a2)
 <br/>
 
-***ex. 로그인***
+***로그인***
 <br/>
-![2_로그인 및 좋아요](https://github.com/user-attachments/assets/d0f495b9-fc12-45b7-a693-15497f08b5e2)
+![로그인 및 좋아요](https://github.com/user-attachments/assets/d0f495b9-fc12-45b7-a693-15497f08b5e2)
 <br/>
 <br/>
 
 ## 2. 마이페이지
-![image](https://github.com/user-attachments/assets/599eac65-c989-4686-8799-7afecfe1d475)
-![image](https://github.com/user-attachments/assets/966fcd87-1ce8-4d05-a547-969c30ed4a08)
-![image](https://github.com/user-attachments/assets/d0371998-d97b-40cf-a168-56c3b2338db3)
-<br/>
-***ex. 마이페이지***
-<br/>
-![4_마이페이지](https://github.com/user-attachments/assets/131c668a-73af-4df9-a8d2-304adff62d46)
+![마이페이지](https://github.com/user-attachments/assets/a337764c-304a-4b2f-b2e2-f0863cb7ca34)
 <br/>
 <br/>
 
-## 3. 홈 페이지
+## 3. 홈페이지
 ![image](https://github.com/user-attachments/assets/03dfac53-293c-4051-ab3d-ad4b88014b14)
 
-## 4. 게시글 작성 페이지
-![image](https://github.com/user-attachments/assets/43dfaeeb-9787-453f-b909-5a50b7a23750)
-![image](https://github.com/user-attachments/assets/144ab656-59e4-40a0-8545-3c110916421b)
-<br/>
-***ex. 게시글 작성***
-<br/>
-![5_게시글작성](https://github.com/user-attachments/assets/b43adbee-2b31-4dff-815d-83543868d8bd)
+## 4. 게시글 작성
+![게시글작성](https://github.com/user-attachments/assets/b43adbee-2b31-4dff-815d-83543868d8bd)
 <br/>
 <br/>
 
@@ -381,11 +367,7 @@ momentree_blog/
 
 
 ## 9. 검색 페이지
-![image](https://github.com/user-attachments/assets/40ef3ece-3abb-49bf-b199-17a1fcce84a0)
-<br/>
-***ex. 검색 기능***
-<br/>
-![3_검색기능 및 좋아요](https://github.com/user-attachments/assets/cd175f33-9995-49c0-ac68-9598e73bb74b)
+![검색기능 및 좋아요](https://github.com/user-attachments/assets/cd175f33-9995-49c0-ac68-9598e73bb74b)
 <br/>
 <br/>
 
@@ -401,7 +383,7 @@ momentree_blog/
 <br/>
 
 # 10. 회고 TIME
-## 1. 수정해야 할 부분들!!
+## 1. 고쳐야할 기능들
 1. 게시글 저장 때 시간이 다른 시간대이다.
 2. 회원 수정 시에 수정이 되면 다시 입력란에 빈칸이 된다.
 3. 팔로우 하면 새로고침하기전에는 언팔로우도 가능하지만, 새로고침하면 언팔로우 대신 팔로우로 되어있고 오류가 발생한다.
@@ -411,7 +393,7 @@ momentree_blog/
 7. 다크모드 UI 개선
 8. 화면 여백 조정
 
-## 2. 추가 해야 할 기능들!!
+## 2. 추후 추가 고려할 기능들
 <홈>
 1. 인기 블로거 정렬
 -> 인기 블로거 외에 다른 사람 블로그를 들어갈 수 있는 방법이 없음
